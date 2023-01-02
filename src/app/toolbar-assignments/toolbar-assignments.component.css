@@ -1,0 +1,21 @@
+.mat-sidenav-container{
+  height:calc(205vh - 115vh) ;
+}
+mat-sidenav{
+  width: 200px;
+  background-color: pink;
+  text-decoration:pink;
+}
+
+mat-sidenav-content{
+  margin: 20px;
+}
+
+.composant{
+  position: relative;
+  top: 10%;
+  left: 16%;
+  width: 400px;
+  display: flex;
+  justify-content: right;
+}
