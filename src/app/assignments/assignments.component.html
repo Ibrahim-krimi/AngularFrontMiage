@@ -1,6 +1,6 @@
 
   <main *ngIf="!formVisible">
-    <button   routerLink="/add" [disabled]="!isLoggedIn()" id="button_ajout" mat-flat-button color="accent" (click)="onAddAssignmentbtnClick()">Ajouter Devoir</button>
+    <button   routerLink="/add" [disabled]="!isLoggedIn()" id="button_ajout" mat-flat-button color="accent">Ajouter Devoir</button>
   </main>
 <p>{{nomDevoir}}</p>
   <p>NB Total d'assignments : {{totalDocs}}</p>
